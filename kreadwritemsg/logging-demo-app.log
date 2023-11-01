@@ -1,0 +1,24 @@
+2023-11-01 15:34:49.154  INFO DESKTOP-GHLG1GG --- [ad | producer-1] o.a.k.c.Metadata                         : [Producer clientId=producer-1] Cluster ID: HSCmkMemTd6fYadbCPVHsg
+2023-11-01 15:34:49.172  INFO DESKTOP-GHLG1GG --- [ad | producer-1] o.a.k.c.p.i.TransactionManager           : [Producer clientId=producer-1] ProducerId set to 8001 with epoch 0
+2023-11-01 15:34:49.337  INFO DESKTOP-GHLG1GG --- [           main] c.e.k.KreadwritemsgApplication           : Starting KreadwritemsgApplication using Java 17.0.8.1 with PID 15316 (F:\VNPT\Kafka\kreadwritemsg\target\classes started by HP in F:\VNPT\Kafka\kreadwritemsg)
+2023-11-01 15:34:49.365  INFO DESKTOP-GHLG1GG --- [ad | producer-1] o.a.k.c.Metadata                         : [Producer clientId=producer-1] Resetting the last seen epoch of partition codespotify-topic-0 to 0 since the associated topicId changed from null to JRGk-jDBRomdhn8-vAQq0g
+2023-11-01 15:34:49.465  INFO DESKTOP-GHLG1GG --- [           main] c.e.k.KreadwritemsgApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:34:51.178  INFO DESKTOP-GHLG1GG --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-11-01 15:34:51.196  INFO DESKTOP-GHLG1GG --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-01 15:34:51.206  INFO DESKTOP-GHLG1GG --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-11-01 15:34:51.212  INFO DESKTOP-GHLG1GG --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-01 15:34:51.318  INFO DESKTOP-GHLG1GG --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-11-01 15:34:51.328  INFO DESKTOP-GHLG1GG --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1730 ms
+2023-11-01 15:34:52.315  INFO DESKTOP-GHLG1GG --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-11-01 15:34:52.345  INFO DESKTOP-GHLG1GG --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-01 15:34:52.370  INFO DESKTOP-GHLG1GG --- [           main] c.e.k.KreadwritemsgApplication           : Started KreadwritemsgApplication in 3.734 seconds (process running for 5.344)
+2023-11-01 15:35:19.690  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 15:35:19.697  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-11-01 15:35:19.707  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-11-01 15:35:19.788  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Method: sendMessageToKafka
+2023-11-01 15:35:19.793  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Class: class com.example.kreadwritemsg.controller.KController
+2023-11-01 15:35:19.859  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Request Parameters: {}
+2023-11-01 15:35:19.869  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Request Headers: {"content-length":"30","postman-token":"6b7c1bdc-2f30-4d78-96e0-d815b8d6539b","host":"localhost:8080","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"PostmanRuntime/7.34.0","accept":"*/*"}
+2023-11-01 15:35:19.882  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Request Body: ["hellodasdas das213123221231132"]
+2023-11-01 15:35:19.892  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.s.LogService                       : Message: hellodasdas das213123221231132was sent at 15:35:19
+2023-11-01 15:35:19.899  INFO DESKTOP-GHLG1GG --- [nio-8080-exec-2] c.e.k.a.LoggingAspect                    : Response: "Message sent to Kafka: hellodasdas das213123221231132"

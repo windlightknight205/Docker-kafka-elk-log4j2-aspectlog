@@ -1,0 +1,10 @@
+server:
+  port:8088
+spring:
+  application:
+    name: thu ten chuong trinh
+#logging:
+#  level:
+#    root: ERROR
+#    org.springframework.web: ERROR
+#    file-name: /logs/application-debug.log
